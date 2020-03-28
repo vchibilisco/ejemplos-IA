@@ -53,7 +53,7 @@ RULEBLOCK No1
     // Use 'max' accumulation method
     ACCU : MAX;
 
-    RULE 1 : IF service IS poor OR food IS rancid 
+    RULE 1 : IF service IS poor AND food IS rancid 
                 THEN tip IS cheap;
 
     RULE 2 : IF service IS good AND food IS rancid

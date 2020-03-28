@@ -1,0 +1,47 @@
+[System]
+Name='tipper_demo'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='service'
+Range=[0 9]
+NumMFs=3
+MF1='poor':'trapmf',[0 0 1 4]
+MF2='good':'trapmf',[1 4 6 9]
+MF3='excellent':'trapmf',[6 9 9 9]
+
+[Input2]
+Name='food'
+Range=[0 9]
+NumMFs=3
+MF1='rancid':'trapmf',[0 0 1 4]
+MF2='delicious':'trapmf',[7 9 9 9]
+MF3='normal':'trapmf',[3 4 6 8]
+
+[Output1]
+Name='tip'
+Range=[0 30]
+NumMFs=3
+MF1='cheap':'trimf',[0 5 10]
+MF2='average':'trimf',[10 15 20]
+MF3='generous':'trimf',[20 25 30]
+
+[Rules]
+1 1, 1 (1) : 1
+2 1, 1 (1) : 1
+3 1, 1 (1) : 1
+1 3, 1 (1) : 1
+2 3, 2 (1) : 1
+3 3, 3 (1) : 1
+1 2, 1 (1) : 1
+2 2, 3 (1) : 1
+3 2, 3 (1) : 1
