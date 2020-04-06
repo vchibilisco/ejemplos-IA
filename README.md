@@ -1,5 +1,9 @@
 # ejemplos-IA
 
+Sistema Experto
+Ejemplos en Java:
+- expert-system-shell
+
 ## Logica Difusa
 Ejemplos en matlab:
 - resistencia-voltaje
