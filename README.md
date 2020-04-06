@@ -1,6 +1,6 @@
 # ejemplos-IA
 
-Sistema Experto
+## Sistema Experto
 Ejemplos en Java:
 - expert-system-shell
 
