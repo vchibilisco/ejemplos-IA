@@ -1,22 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.sistemaexpertoclubdemickey;
-
 import com.github.cschen1205.ess.engine.Clause;
 import com.github.cschen1205.ess.engine.EqualsClause;
 import com.github.cschen1205.ess.engine.KieRuleInferenceEngine;
 import com.github.cschen1205.ess.engine.Rule;
 import com.github.cschen1205.ess.engine.RuleInferenceEngine;
 
-/**
- *
- * @author vicen
- */
 public class BaseDeConocimiento {
-    public static RuleInferenceEngine getRules() {
+	public static RuleInferenceEngine getRules() {
     	RuleInferenceEngine rie = new KieRuleInferenceEngine();
     	
     	/**

@@ -1,23 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.sistemaexpertoclubdemickey;
-
 import java.util.Scanner;
 
 import com.github.cschen1205.ess.engine.EqualsClause;
 import com.github.cschen1205.ess.engine.RuleInferenceEngine;
 
-/**
- *
- * @author vicen
- */
 public class Main {
 
-    public static void main(String[] args) {
-    	RuleInferenceEngine rie = BaseDeConocimiento.getRules();
+	public static void main(String[] args) {
+		RuleInferenceEngine rie = BaseDeConocimiento.getRules();
     	
     	
     	System.out.println("Interfaz de Usuario");
@@ -58,6 +47,6 @@ public class Main {
  	    System.out.println("after inference");
  	    System.out.println(rie.getFacts());
  	    System.out.println();
-    }
-    
+	}
+
 }
