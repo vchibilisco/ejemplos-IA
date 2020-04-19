@@ -3,6 +3,8 @@
 ## Sistema Experto
 Ejemplos en Java:
 - expert-system-shell
+- SEClubDisney
+- SE-problemas-pc
 
 ## Logica Difusa
 Ejemplos en matlab:
