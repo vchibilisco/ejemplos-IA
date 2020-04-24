@@ -1,7 +1,6 @@
 package se;
 
 public final class Hechos {
-
     /**
      * Hechos comunes
      */
