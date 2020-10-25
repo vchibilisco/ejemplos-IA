@@ -11,7 +11,7 @@ Pasos:
 * Ingresar en Fullfillment
 * Habilitar 'Inline Editor' 
     (Si no tiene cuenta asociada en Google Platform, debera crear y registrar una tarjeta de credito,
-    Google regala credito para cuenta gratuita y no factura sin consentimiento del dueño de cuenta)
+    Google otorga un credito para cuenta gratuita y no factura sin consentimiento del dueño de cuenta)
 * En el tab index.js borrar contenido, y copiar el contenido del archivo script.js.
 * En el objeto 'calendarId' agregar el 'ID del calendario' de cada calendario creado en Google Calendar.
 * En el objeto 'serviceAccount' copiar el contenido del archivo JSON que posee las credenciales
