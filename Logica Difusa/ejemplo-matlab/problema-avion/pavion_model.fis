@@ -1,0 +1,49 @@
+[System]
+Name='pavion_model'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='VE'
+Range=[0 1000]
+NumMFs=3
+MF1='low':'trapmf',[-360 -40 450 500]
+MF2='ok':'trimf',[450 550 700]
+MF3='high':'trapmf',[550 850 1015 1335]
+
+[Input2]
+Name='AN'
+Range=[-10 10]
+NumMFs=3
+MF1='down':'trapmf',[-16.7 -11 -5 0]
+MF2='level':'trimf',[-5 0 5]
+MF3='up':'trapmf',[0 5 10.8 17.2]
+
+[Output1]
+Name='PS'
+Range=[0 10]
+NumMFs=5
+MF1='low':'trapmf',[-3.6 -0.4 0 4]
+MF2='med':'trimf',[4 6 8]
+MF3='high':'trapmf',[8 10 10.4 13.6]
+MF4='lm':'trimf',[2 4 6]
+MF5='hm':'trimf',[6 8 10]
+
+[Rules]
+3 3, 4 (1) : 1
+3 2, 4 (1) : 1
+3 1, 1 (1) : 1
+2 3, 5 (1) : 1
+2 2, 2 (1) : 1
+2 1, 4 (1) : 1
+1 3, 3 (1) : 1
+1 2, 5 (1) : 1
+1 1, 5 (1) : 1
