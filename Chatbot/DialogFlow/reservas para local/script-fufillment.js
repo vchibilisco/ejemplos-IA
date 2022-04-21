@@ -29,15 +29,15 @@ const calendarId = {
 
 const serviceAccount = {
     "type": "service_account",
-    "project_id": "turnosmedicos-mcfwaf",
-    "private_key_id": "2e0402276f2529df44cd917ac9c5f3e6fd382e6f",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCjaLNeDkkrFY5L\n81XtXvTcrHJxzeOAdn9GTR25wFgj18OZa6zibGoYGkUYkkVZ6kbIHzVo/JdvRsIv\nGsToWIZ2rQpj5jQy2EkQtCCbnK7aKBjHc816XhTrQg59UIIpqi8aBoAK/j+4XuBx\nHQUA4odiy5b4KxGHzP9vxJ56ipIDJ53hrhG+uwHzWbX4cwWkV04wJTjeUERACb7n\nlTmBwJuWNcFfSeAriF3lrsx9ezTH7tR9hkcXof55qRGIki1VMr08OHsBV1jKsacY\no5cgM+kToMDUnas54yd1iRUAdJ91VmdoTFLPSYsVqU/Ua6BVZIgtuyu2n+DDANl0\nQW1q0vqZAgMBAAECgf9tgPeyJsUzzFUKma+klHj5VhaSI8/w73etO5u9oyMkdBvI\nyu0CTsAA8Ad5D9VgeZnsHSJo/QCQcUy4zWCv96La7ZGo6Y2su8zxqTGMOtNNHj9Y\nIEbNouwhzYJxXEa5CZc0lPjUrjpXfDz0tJ2zdYgWsSojUbk7Z+AgnO/NgOEFxECT\nVpOOFN5tb1i2t/wIDtuyyU5C2nRlksdsvJibBTtkmD4liIRZE43OW0QCPDquZhnH\nWZrQGDSA8WU2EjfvWLtte8JgNjNie5eJu/a9E6sx6MbxLcGjcM/9OmInJOKr/qqI\nbEfjfE++Y/2vmvqkdM0s7EiSfrmzKRuHb1D3q9ECgYEA5CXSEaShQfMyyG5ke8WX\n1YC8ldhU32cD4PnvIcD445TFPi1bUX7i9M0HQdVMoOHXauKDWzBtae+S43H1xJk/\nyMtTqeasEIMR53Aafcp2MYJWLlFl9uUa8wsAL/ck42HSmY/zGQZjI337tFz+XUJK\nxWV7iI3+E/dO5AneHtJJSckCgYEAt1uibcgO1Oe+KxzCUyLtk23vF7h+jKHEnKwL\n6Eo2afqA25+gV+ewuN3zdYpPGvcI15SHnLRODgmV/2KvfKFq9ujblZkFLrblQLuw\nFMP5LBA6mVfEvsGwNy+BAr04Hw1g0XRXen+6l1Jp3cHXjSg/mo+9xEL/NRhlbA8q\nHPAeklECgYEA47rgwh2rnVHtaeXPRUDJuyLCm2wR4+FHHOU+Dlo51aklbVgG5AUc\n9DBHwy3vTFPCG/24Emj3fhvWalPRd4llAr/6ZghLzjuWvobG2rMiYW7xKVC0z8qG\nqP1dFYPDfXiiqAfpJxyaDs5tVe7RNDO8wOb4dSkO6c0dIUC8R9WttAkCgYEAtWy4\nBUQkWMmMwv/Lz5MJ3Ay0vJXSsbgG4LbjeU6lFKvHAIirkQ8xL1p94NmfeCDi4NyY\napeFfCJEBtRQq1LUkcbKLvWfyR8zK6AKlCFs1Qqh0MSladIgWBpq3pj3hNIp8FXb\nkNv9dmkXU1LPw14FwRtlO2LHPnQLNqaylruIpGECgYAiPO49KrJjiJKTpqaV2ZIk\nWVzZ1+JUZqK37cPyfPCrdUFcCq1h9rbSyQZD8+LA/NDDlR1ZofVTdkU+quszZDzH\ntaWMZA0XHzzYBWBkeEoE3LukI9nfdHdkqQ1jh2XJyy17QWjItXdZI8VYQEFpRRmh\nx7bB5L9o2QsZTHkyIF/Bfg==\n-----END PRIVATE KEY-----\n",
-    "client_email": "bike-shop-calendar@turnosmedicos-mcfwaf.iam.gserviceaccount.com",
-    "client_id": "100452189336071299378",
+    "project_id": "PROYECT_ID",
+    "private_key_id": "PRIVATE_KEY_ID",
+    "private_key": "PRIVATE_KEY",
+    "client_email": "CLIENT_EMAIL",
+    "client_id": "CLIENT_ID",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bike-shop-calendar%40turnosmedicos-mcfwaf.iam.gserviceaccount.com"
+    "client_x509_cert_url": "CLIENT_X509_CERT_URL"
   }; // The JSON object looks like: { "type": "service_account", ... }
 
 // Set up Google Calendar service account credentials
