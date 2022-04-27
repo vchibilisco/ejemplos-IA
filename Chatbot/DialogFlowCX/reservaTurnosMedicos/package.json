@@ -1,0 +1,22 @@
+{
+  "name": "reservaTurnosMedicos",
+  "version": "1.0.0",
+  "description": "Reserva de Turnos Medicos Ejemplo servicio",
+  "main": "index.js",
+  "author": "vchibilisco@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "ngrok": "ngrok http 8080"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "ngrok": "^4.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
