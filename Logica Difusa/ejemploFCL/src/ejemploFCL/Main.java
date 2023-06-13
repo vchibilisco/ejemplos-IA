@@ -11,7 +11,7 @@ public class Main {
 	private static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		String fileName = "flc/tipper.fcl";
+		String fileName = "Logica Difusa//ejemploFCL//flc//tipper.fcl";
 		
 		FIS fis = FIS.load(fileName);
 		

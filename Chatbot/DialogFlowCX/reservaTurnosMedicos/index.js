@@ -16,7 +16,7 @@ app.post('/webhook', (req, res) => {
   if (!!tag) {
     switch (tag) {
       case 'verificar_reserva':
-        const persona = req.body.sessionInfo.parameters['given-name'][0];
+        const persona = req.body.sessionInfo.parameters['given-name'];
         const prepaga = req.body.sessionInfo.parameters.prepaga;
         let estado = 'invalid';
         if (persona.toUpperCase() === 'MARIA' && ['DASUTEN', 'OSDE', 'PRENSA', 'SWISS MEDICAL'].includes(prepaga.toUpperCase())) {
