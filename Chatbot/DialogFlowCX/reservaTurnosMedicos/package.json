@@ -6,7 +6,7 @@
   "author": "vchibilisco@gmail.com",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "NGROK_AUTHTOKEN=TOKEN nodemon index.js",
     "ngrok": "ngrok http 8080"
   },
   "dependencies": {
@@ -16,7 +16,7 @@
     "moment": "^2.29.3"
   },
   "devDependencies": {
-    "ngrok": "^4.3.1",
+    "@ngrok/ngrok": "^1.2.0",
     "nodemon": "^2.0.15"
   }
 }
