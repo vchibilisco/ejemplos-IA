@@ -7,7 +7,7 @@ import net.sourceforge.jFuzzyLogic.rule.Variable;
 public class Main {
 
 	public static void main(String[] args) {
-		String fileName = "flc/modelo.fcl";
+		String fileName = "flc//modelo.fcl";
 
 		FIS fis = FIS.load(fileName);
 
