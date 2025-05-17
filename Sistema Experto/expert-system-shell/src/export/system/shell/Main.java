@@ -101,7 +101,7 @@ public class Main {
 	public static void testBackwardChain() {
 		RuleInferenceEngine rie = getInferenceEngine();
 		
-		rie.addFact(new EqualsClause("num_wheels", "4"));
+		rie.addFact(new EqualsClause("num_wheels", "2"));
 	    rie.addFact(new EqualsClause("motor", "yes"));
 	    rie.addFact(new EqualsClause("num_doors", "3"));
 	    rie.addFact(new EqualsClause("size", "medium"));
