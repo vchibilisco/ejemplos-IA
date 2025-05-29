@@ -5,3 +5,6 @@
 /**/.metadata/
 
 /red_neuronal/dataset/**/**/*.jpg
+
+/**/.env
+/**/mi_entorno
