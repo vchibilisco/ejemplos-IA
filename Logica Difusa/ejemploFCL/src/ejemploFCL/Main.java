@@ -11,7 +11,15 @@ public class Main {
 	private static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		String fileName = "flc//tipper.fcl";
+		// Construir la ruta correcta desde el directorio de trabajo actual
+		String fileName = "flc/tipper.fcl";
+		java.io.File file = new java.io.File(fileName);
+		
+		// Si no existe, intentar desde el directorio del proyecto
+		if (!file.exists()) {
+			fileName = "Logica Difusa/ejemploFCL/flc/tipper.fcl";
+			file = new java.io.File(fileName);
+		}
 		
 		FIS fis = FIS.load(fileName);
 		
@@ -20,7 +28,7 @@ public class Main {
 			return;
 		}
 
-		JFuzzyChart.get().chart(fis);
+		//JFuzzyChart.get().chart(fis);
 		
 		int service = setVariable(0, 9, "Servicio");
 		

@@ -30,9 +30,7 @@ public class BaseDeConocimiento {
     private static void problemaMemoriaRam(RuleInferenceEngine rie) {
         Rule rule = new Rule("MEMORIA_RAM_Regla_1");
         rule.addAntecedent(new EqualsClause(Hechos.PITIDO_LARGO, "si"));
-        rule.addAntecedent(
-                new NegationClause(new EqualsClause(Hechos.PANTALLA_ENCIENDE, "si"))
-        );
+        rule.addAntecedent(new EqualsClause(Hechos.PANTALLA_ENCIENDE, "no"));
         rule.setConsequent(new EqualsClause(Hechos.PROBLEMA_MEMORIA_RAM, "si"));
         rie.addRule(rule);
 
