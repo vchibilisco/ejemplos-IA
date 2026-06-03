@@ -8,3 +8,5 @@
 
 /**/.env
 /**/mi_entorno
+/.venv/
+/**/.DS_Store

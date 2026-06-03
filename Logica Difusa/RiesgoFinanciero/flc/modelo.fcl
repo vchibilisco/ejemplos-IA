@@ -1,4 +1,4 @@
-// Definición de Bloque
+// Definiciï¿½n de Bloque
 FUNCTION_BLOCK Modelo_Riesgo_Financiero
 
 // Variables de entrada
@@ -17,6 +17,10 @@ FUZZIFY edad
     TERM joven := (0, 1) (25, 1) (30, 0) ; 
     TERM adulto := (20, 0) (35, 1) (50, 0);
     TERM mayor := (40, 0) (60, 1) (70, 1);
+    
+    //TERM joven := GAUSS 10 12.5 ; 
+    //TERM adulto := SIGM 0.1 10;
+    //TERM mayor := (40, 0) (60, 1) (70, 1);
 END_FUZZIFY
 
 // Entrada
@@ -39,11 +43,11 @@ DEFUZZIFY riesgo
 END_DEFUZZIFY
 
 RULEBLOCK No1
-    // Usa 'min' para condición 'and'
+    // Usa 'min' para condiciï¿½n 'and'
     AND : MIN;
-    // Usa 'min' metodo de activación
+    // Usa 'min' metodo de activaciï¿½n
     ACT : MIN;
-    // Usa 'max' metodo acumulación
+    // Usa 'max' metodo acumulaciï¿½n
     ACCU : MAX;
 
     RULE 1 : IF edad IS joven AND porcentaje_manejo IS bajo 
